@@ -1,0 +1,120 @@
+.fw400{
+    font-weight: 400;
+}
+.fwb {
+    font-weight: bold;
+}
+
+.hero_wrap .hero{
+    background-image: url('../image/menu/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+.hero_wrap .hero .text_box {
+    padding-top: 130px;
+}
+.hero_wrap .hero .text_box h3{
+    font-size: 46px;
+    font-weight: 300;
+}
+.hero_wrap .hero .text_box p {
+    padding: 0px 0 118px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.hero_wrap .hero .text_box i {
+    font-size: 50px;
+}
+
+.hero_wrap .hero ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero_wrap .hero ul li {
+    background-color: #fff;
+    padding: 7px 70px 8px;
+    border: 1px solid #999;
+    margin-left: -2px;
+    color: #999;
+}
+.hero_wrap .hero ul li.active {
+    background-color: #FFE600;
+    color: #202020;
+    font-weight: bold;
+}
+
+/* title */
+.title {
+    text-align: center;
+    padding: 80px 0 75px;
+}
+
+.title h2 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #061F60;
+}
+.title i {
+    font-size: 50px;
+}
+
+/* section 1 */
+.s1 {
+    margin-bottom: 96px;
+}
+.s1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.s1 .menu_box{
+    position: relative;
+    text-align: center;
+    width: 245px;
+    padding-bottom: 76px;
+}
+
+.s1 .best > p{
+    width: 69px;
+    height: 69px;
+    line-height: 69px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFE600;
+    background-color: #061F60;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    right: -1px;
+    box-shadow: 4px 4px 8px 0px #666;
+}
+
+/* section 2 */
+.s2 {
+    width: 1148px;
+    margin: 0 auto;
+}
+.s2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 188px;
+}
+.s2 .menu_box{
+    margin-left: -1px;
+    margin-top: -1px;
+    text-align: center;
+    width: 245px;
+    border: 1px solid #999;
+}
+
+.s2 .menu_box p {
+    margin-bottom: 20px;
+}
+
+
